@@ -1,6 +1,11 @@
 <template>
   <nav-bar />
   <router-view />
+  <footer class="py-5 mt-4">
+    <div class="container text-center">
+      <a class="text-white" href="https://www.linkedin.com/in/vinicius-souza-b89719141/">Desenvolvido por Vinicius Souza</a>
+    </div>
+  </footer>
 </template>
 
 <style lang="scss">
@@ -10,6 +15,25 @@
   color: white;
   .title{
     font-family: 'Dancing Script', cursive;
+  }
+  footer{
+    background: #131212;
+    border: 1px solid black;
+    .container{
+      background: #131212;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      font-family: 'Dancing Script', cursive;
+      font-weight: 700;
+      background: #131212;
+      transition: filter 0.5s;
+      &:hover{
+        text-decoration: underline;
+        filter: brightness(120%);
+      }
+    }
   }
 }
 </style>
