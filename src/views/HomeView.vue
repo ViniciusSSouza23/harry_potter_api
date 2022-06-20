@@ -1,5 +1,5 @@
 <template>
-  <div class="home-view container py-3">
+  <div class="home-view container">
     <div class="text-center">
       <img
         width="300"
@@ -9,9 +9,9 @@
     </div>
     <div class="line w-100"></div>
     <div class="row py-5">
-      <div class="col-lg-6">
+      <div class="col-lg-6 order-lg-1 order-2">
         <div class="line py-5 px-5">
-          <h3 class="pb-4">Bem vindo a Harry Potter Wiki</h3>
+          <h3 class="pb-4 title">Bem vindo a Harry Potter Wiki</h3>
           <p>
             Nessa Wiki você vai poder conehcer um pouco mais sobre os
             personagens de Harry Potter, desde estudantes, trabalhadores da
@@ -29,7 +29,7 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 order-lg-2 order-1">
         <div class="text-center line py-4 px-5">
           <img
           src="../assets/img/home/brasaowbg.png"
