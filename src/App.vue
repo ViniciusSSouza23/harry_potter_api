@@ -4,7 +4,7 @@
 
 <style lang="scss">
 *{
-   background: #000002;
+   background: #19191a;
    color: white;
 }
 
