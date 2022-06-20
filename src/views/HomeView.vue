@@ -1,3 +1,3 @@
 <template>
-  <p>explicar sobre o projeto home</p>
+  <p class="text-uppercase">explicar sobre o projeto home</p>
 </template>
