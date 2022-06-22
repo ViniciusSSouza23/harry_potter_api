@@ -10,12 +10,25 @@
 
 <style lang="scss">
 * {
+  box-sizing: border-box;
+  overflow-x: hidden;
   font-family: 'Barlow', sans-serif;
   background: #19191a;
   color: white;
   .title{
     font-family: 'Dancing Script', cursive;
   }
+  .btn{
+    &:focus{
+      box-shadow: none;
+      border: none;
+    }
+  }
+  .line {
+    border: 1px solid goldenrod;
+    
+  }
+  
   footer{
     background: #131212;
     border: 1px solid black;
