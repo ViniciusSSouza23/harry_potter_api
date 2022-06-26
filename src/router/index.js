@@ -34,7 +34,27 @@ const routes = [
     path: "/allperson",
     name: 'all',
     component: AllcharactersView
-  }
+  },
+  {
+    path: "/sonserine",
+    name:"sonserine",
+   component: SonserineView
+  },
+  {
+    path: "/grifinoria",
+    name:"grifinoria",
+   component: SonserineView
+  },
+  {
+    path: "/lufa-lufa",
+    name:"lufa-lufa",
+   component: SonserineView
+  },
+  {
+    path: "/corvinal",
+    name:"corvinal",
+   component: SonserineView
+  },
   
 ]
 
