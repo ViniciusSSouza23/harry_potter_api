@@ -4,6 +4,10 @@ import AllcharactersView from "../views/AllcharactersView";
 import StaffView from "../views/StaffView";
 import StudentsView from "../views/StudentsView";
 import HouseView from "../views/HouseView";
+import CorvinalView from "../views/houses/CorvinalView";
+import GrifinoriaView from "../views/houses/GrifinoriaView";
+import LufalufaView from "../views/houses/LufalufaView";
+import SonserineView from "../views/houses/SonserineView";
 
 const routes = [
   {
@@ -43,17 +47,17 @@ const routes = [
   {
     path: "/grifinoria",
     name:"grifinoria",
-   component: SonserineView
+   component: GrifinoriaView
   },
   {
     path: "/lufa-lufa",
     name:"lufa-lufa",
-   component: SonserineView
+   component: LufalufaView
   },
   {
     path: "/corvinal",
     name:"corvinal",
-   component: SonserineView
+   component: CorvinalView
   },
   
 ]
